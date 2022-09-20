@@ -6,7 +6,7 @@
 /*   By: hcremers <hcremers@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 13:26:29 by hcremers          #+#    #+#             */
-/*   Updated: 2022/09/16 17:04:37 by hcremers         ###   ########.fr       */
+/*   Updated: 2022/09/20 17:40:11 by hcremers         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ DiamondTrap::DiamondTrap(std::string name) : _name(name)
 {
 	ClapTrap::_name = ClapTrap::_name + "_clap_name";
 
-	std::cout << "DiamondTrap " << _name << " has born from the merge of a ScavTrap and a FragTrap" << std::endl;
+	std::cout << "DiamondTrap " << _name << " is born from the merge of a ScavTrap and a FragTrap" << std::endl;
 
 	return;
 }
