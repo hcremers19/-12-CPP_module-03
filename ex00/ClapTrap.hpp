@@ -6,7 +6,7 @@
 /*   By: hcremers <hcremers@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 10:25:51 by hcremers          #+#    #+#             */
-/*   Updated: 2022/09/16 12:18:08 by hcremers         ###   ########.fr       */
+/*   Updated: 2022/09/20 16:56:19 by hcremers         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ class ClapTrap
 		void		setEnergyPoints(int amount);
 		void		setAttackDamage(int amount);
 
-	protected:
+	private:
 		std::string	_name;
 		int			_hitPoints;
 		int			_energyPoints;
